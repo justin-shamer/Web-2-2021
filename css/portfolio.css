@@ -1,0 +1,62 @@
+:root {
+    /*put variables here*/
+}
+*{
+    margin: 0;
+    padding: 0;
+    Box-sizing: border-box;
+    font-family: 'Almendra', serif;
+}
+body {
+    background: lightgray;
+}
+header {
+    padding: 2rem;
+    text-align: center;
+}
+nav {
+    background: black;
+    color: white;
+}
+nav ul {
+    list-style-type: none;
+}
+nav li {
+    display: inline-block;
+}
+nav li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 2vh 4vh;
+    border-right: 1px solid rgba(211, 211, 211, .4);
+    transition: background-color .5s ease-in;
+}
+nav li a:hover {
+    text-decoration: underline;
+    background-color: rgba(211, 211, 211, .4)
+}
+footer {
+    background: black;
+    color: white;
+    padding: 3rem;
+    min-height: 10vh;
+}
+.container {
+    background: burlywood;
+    padding: 1rem;
+    min-height: 60vh;
+    width: 80%;
+    margin: auto;
+}
+
+@media only screen and (max-width: 800px) {
+    .container {
+        background: darkred;
+        color: white;
+        width: 100%;
+    }
+}
+
+
+
